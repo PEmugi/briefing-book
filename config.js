@@ -51,7 +51,7 @@ define([], function () {
 
         // The URL for your ArcGIS Online Organization or Portal for ArcGIS site,
         // e.g., something like "https://myOrg.maps.arcgis.com/" for an Online Organization
-        PortalURL: "",
+        PortalURL: "https://ej.maps.arcgis.com/",
 
         // OAuth application id; This parameter is only required for ArcGIS organizational accounts using Enterprise Logins.Leave empty if you are not using Enterprise Logins
         OAuthAppid: "", // e.g., something like "AFTKRmv16wj14N3z"
@@ -64,7 +64,7 @@ define([], function () {
         GeometryServiceURL: "http://tasks.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
 
         // The unique tag given to each book. This tag will determine which books are visible in the Briefing Book application.
-        ConfigSearchTag: '',
+        ConfigSearchTag: 'BriefingBookEJ',
 
         // cookie/local storage name  for storing user credential
         Credential: "esribriefingbookcredential",
